@@ -11,7 +11,7 @@ gamma =  float(input("Enter value of gamma"))
 
 population = np.zeros(3)
 
-print "Enter initial population of susceptibles, infected, and recovered individuals respectively"
+print("Enter initial population of susceptibles, infected, and recovered individuals respectively")
 
 for i in range(3):
 	
@@ -27,7 +27,7 @@ def SIR():
 
 		population[2] += population[1] * h * gamma
 
-		print i , population[0], population[1], population[2] 
+		print(i , population[0], population[1], population[2])
 
 SIR()  
 	
